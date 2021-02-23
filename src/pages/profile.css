@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height:100%;
+    padding-top: 50px;
+  }
+  
+  .flex-container > div {
+    
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .p{
+      font-size: 15px;
+      line-height: 15px;
+  }
+  .q{
+    font-size: 20px;
+  }
+  .im{
+      padding-top: 20px;
+      border-radius: 50%;
+  }
